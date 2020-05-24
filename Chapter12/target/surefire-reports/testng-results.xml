@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="用户管理系统测试套件" duration-ms="1117" started-at="2020-05-24T08:21:15Z" finished-at="2020-05-24T08:21:16Z">
+    <groups>
+      <group name="loginTrue">
+        <method signature="LoginTest.loginTrue()[pri:0, instance:com.course.cases.LoginTest@2752f6e2]" name="loginTrue" class="com.course.cases.LoginTest"/>
+      </group> <!-- loginTrue -->
+    </groups>
+    <test name="用户管理系统测试用例" duration-ms="1117" started-at="2020-05-24T08:21:15Z" finished-at="2020-05-24T08:21:16Z">
+      <class name="com.course.cases.UpdateUserInfoTest">
+        <test-method status="PASS" signature="updateUserInfo()[pri:0, instance:com.course.cases.UpdateUserInfoTest@7c75222b]" name="updateUserInfo" duration-ms="58" depends-on-groups="loginTrue" started-at="2020-05-24T08:21:16Z" description="更新用户信息" finished-at="2020-05-24T08:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserInfo -->
+      </class> <!-- com.course.cases.UpdateUserInfoTest -->
+      <class name="com.course.cases.GetUserInfoTest">
+        <test-method status="PASS" signature="getUserInfo()[pri:0, instance:com.course.cases.GetUserInfoTest@1cd072a9]" name="getUserInfo" duration-ms="64" depends-on-groups="loginTrue" started-at="2020-05-24T08:21:16Z" description="获取用户信息为1的用户信息" finished-at="2020-05-24T08:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserInfo -->
+      </class> <!-- com.course.cases.GetUserInfoTest -->
+      <class name="com.course.cases.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.course.cases.LoginTest@2752f6e2]" name="beforeTest" is-config="true" duration-ms="247" started-at="2020-05-24T08:21:15Z" finished-at="2020-05-24T08:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginTrue()[pri:0, instance:com.course.cases.LoginTest@2752f6e2]" name="loginTrue" duration-ms="598" started-at="2020-05-24T08:21:15Z" description="用户登录接口测试" finished-at="2020-05-24T08:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTrue -->
+      </class> <!-- com.course.cases.LoginTest -->
+      <class name="com.course.cases.AddUserTest">
+        <test-method status="PASS" signature="addUser()[pri:0, instance:com.course.cases.AddUserTest@e580929]" name="addUser" duration-ms="63" depends-on-groups="loginTrue" started-at="2020-05-24T08:21:16Z" description="添加用户接口测试" finished-at="2020-05-24T08:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+      </class> <!-- com.course.cases.AddUserTest -->
+      <class name="com.course.cases.GetUserInfoListTest">
+        <test-method status="PASS" signature="getUserListInfo()[pri:0, instance:com.course.cases.GetUserInfoListTest@4c203ea1]" name="getUserListInfo" duration-ms="73" depends-on-groups="loginTrue" started-at="2020-05-24T08:21:16Z" description="获取性别为男的用户信息" finished-at="2020-05-24T08:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserListInfo -->
+      </class> <!-- com.course.cases.GetUserInfoListTest -->
+    </test> <!-- 用户管理系统测试用例 -->
+  </suite> <!-- 用户管理系统测试套件 -->
+</testng-results>
